@@ -30,12 +30,12 @@ import opennlp.tools.formats.ConllXTokenSampleStreamFactory;
 import opennlp.tools.formats.DocumentSampleStreamFactory;
 import opennlp.tools.formats.EvalitaNameSampleStreamFactory;
 import opennlp.tools.formats.LanguageDetectorSampleStreamFactory;
+import opennlp.tools.formats.LeipzigDocumentSampleStreamFactory;
 import opennlp.tools.formats.LemmatizerSampleStreamFactory;
 import opennlp.tools.formats.NameSampleDataStreamFactory;
 import opennlp.tools.formats.ParseSampleStreamFactory;
 import opennlp.tools.formats.SentenceSampleStreamFactory;
 import opennlp.tools.formats.TokenSampleStreamFactory;
-import opennlp.tools.formats.TwentyNewsgroupSampleStreamFactory;
 import opennlp.tools.formats.WordTagSampleStreamFactory;
 import opennlp.tools.formats.ad.ADChunkSampleStreamFactory;
 import opennlp.tools.formats.ad.ADNameSampleStreamFactory;
@@ -104,12 +104,12 @@ public final class StreamFactoryRegistry {
     ConllXPOSSampleStreamFactory.registerFactory();
     ConllXSentenceSampleStreamFactory.registerFactory();
     ConllXTokenSampleStreamFactory.registerFactory();
+    LeipzigDocumentSampleStreamFactory.registerFactory();
     ADChunkSampleStreamFactory.registerFactory();
     ADNameSampleStreamFactory.registerFactory();
     ADSentenceSampleStreamFactory.registerFactory();
     ADPOSSampleStreamFactory.registerFactory();
     ADTokenSampleStreamFactory.registerFactory();
-    TwentyNewsgroupSampleStreamFactory.registerFactory();
 
     Muc6NameSampleStreamFactory.registerFactory();
 
